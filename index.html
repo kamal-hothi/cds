@@ -1,50 +1,140 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h3>Communicating data stories</h3>
+          <p><a href="http://twitter.com/kamal_hothi">@kamal_hothi</a></p>
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section>
+          <h3>What do I do</h3>
+          <small class="fragment">Why this might be worth your time</small>
+          <p class="fragment">Journalist-programmer visualising data</p>
+        </section>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+        <section>
+          <p>First there was a bar chart...</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/1786_Playfair_-_Exports_and_Imports_of_Scotland_to_and_from_different_parts_for_one_Year_from_Christmas_1780_to_Christmas_1781.jpg" width="auto"></img>
+          <aside class="notes">Ever since then there have been lot of bar charts, but it's useful to know there was a first.</aside>
+        </section>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+
+        <section>
+          <h3>Why do we visualise data</h3>
+          <img class="fragment" src="https://imgs.xkcd.com/comics/extrapolating.png" width="auto"></img>
+        </section>
+
+        <section>
+          <h3>Why do we visualise data</h3>
+          <p class="fragment">Asking questions</p>
+          <p class="fragment">Communicating understanding</p>
+        </section>
+
+        <section>
+          <h3>Why pictures</h3>
+          <blockquote>
+            The greatest value of a picture is when it forces us to notice what we never expected to see.
+          </blockquote>
+          <small class="fragment">~ John W. Tukey, Exploratory Data Analysis. 1977</small>
+        </section>
+
+        <section>
+          <h3>Visualisation ... as cognition</h3>
+          <p><a href="https://www.nytimes.com/interactive/2017/01/15/us/politics/you-draw-obama-legacy.html" target="_blank">You draw it</a></p>
+        </section>
+
+        <section>
+          <h3> ... as evidence</h3>
+          <p><a href="https://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html" target="_blank">Education and income</a></p>
+        </section>
+
+        <section>
+          <h3> ... as narrative</h3>
+          <p><a href="" target="_blank">Guns</a> </h3>
+        <aside class="notes">Consistent visual metaphor, step by step narrative</aside>
+        </section>
+
+        <section>
+          <h3>Visualising with intent</h3>
+          <p class="fragment">Understanding relationship</p>
+          <p class="fragment">Conveys meaning</p>
+          <p class="fragment">What's the point</p>
+        </section>
+
+        <section data-background="https://www.dropbox.com/s/xks1kiwkgrvjrxk/Screenshot%202017-04-05%2006.44.03.png?raw=1">
+        </section>
+
+        <section>
+          <blockquote> Three of the main strategies of data analysis
+            are:
+            <ol>
+              <li class="fragment">graphical presentation. </li> 
+              <li class="fragment"> provision of
+                flexibility in viewpoint and in facilities;</li>
+              <li class="fragment">intensive search for parsimony and
+                simplicity.</li>
+            </ol>
+            <small class="fragment">John W. Tukey</small>
+          </blockquote>
+
+        </section>
+
+        <section>
+          <h3>Recommendations</h3>
+          <p class="fragment">Create space for experimentation</p>
+          <p class="fragment">Explore great <a href="http://www.visualisingdata.com/2017/03/best-visualisation-web-january-2017/" target="_blank">interactive</a> visualisations</p>
+
+        </section>
+
+        <section>
+          <p><a href="https://flowingdata.com" target="_blank">Nathan Yau</a></p>
+          <p><a href="https://powerbi.microsoft.com/en-us/datajournalism/" target="_blank">Alberto Cairo's PowerBI course</a></p> 
+          <p><a href="https://bl.ocks.org" target="_blank">Bl.ocks.org</a></p>
+          <p><a href="https://www.stat.auckland.ac.nz/~wild/iNZight/index.php" target="_blank">iNZight</a></p>
+          <p><a href="https://plot.ly" target="_blank">Plot.ly</a></p>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  history: true,
+
+  // More info https://github.com/hakimel/reveal.js#dependencies
+  dependencies: [
+  { src: 'plugin/markdown/marked.js' },
+  { src: 'plugin/markdown/markdown.js' },
+  { src: 'plugin/notes/notes.js', async: true },
+  { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+  ]
+});
+    </script>
+  </body>
 </html>
